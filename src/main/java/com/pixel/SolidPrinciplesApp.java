@@ -20,7 +20,7 @@ public class SolidPrinciplesApp {
 	public void go() {
 		System.out.println(singleResponsebilityService.getInvoice());
 		System.out.println("How To Merge Your Branch To Master Using Github Desktop !!!");
-		System.out.println("Cherry Pick ");
+		System.out.println("Cherry Pick !!! ");
 	}
 
 }
