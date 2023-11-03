@@ -13,4 +13,7 @@ public class SingleResponsebilityService {
     public int getInvoice() {
        return invoice.calculateTotal(10);
     }
+    public void freakOut() {
+        System.out.println("what ever message");
+    }
 }
