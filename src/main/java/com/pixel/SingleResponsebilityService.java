@@ -16,4 +16,12 @@ public class SingleResponsebilityService {
     public void freakOut() {
         System.out.println("what ever message");
     }
+    public void getSomeThing() {
+        System.out.println("getting something");
+    }
+
+    public void freakOut1() {
+        System.out.println("what ever message");
+    }
+
 }

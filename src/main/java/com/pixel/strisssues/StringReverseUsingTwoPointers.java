@@ -1,14 +1,13 @@
 package com.pixel.strisssues;
 
-import org.springframework.util.ObjectUtils;
 
 import java.util.Optional;
-import java.util.function.Predicate;
 
 public class StringReverseUsingTwoPointers {
     public static void main(String[] args) {
-        System.out.println(reverseStringOptional(null));
+       // System.out.println(reverseStringOptional(null));
         //System.out.println(revStr("hehe"));
+        System.out.println(reversedStr("hee"));
     }
     public static String reverseString(String str) {
         if (str == null) {
@@ -33,6 +32,13 @@ public class StringReverseUsingTwoPointers {
         int len = str.length()-1;
         for (int i= len; i>=0; i--){
             rev = rev + str.charAt(i);
+        }
+        return rev;
+    }
+    public static String reversedStr(String revStr) {
+        String rev = " ";
+        for (int i = 0; i<revStr.length();i++) {
+            rev = revStr.charAt(i) + rev;
         }
         return rev;
     }
